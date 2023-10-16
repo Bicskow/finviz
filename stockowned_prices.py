@@ -3,7 +3,7 @@
 import finviz
 from datetime import date
 
-tickers = ['MMM', 'ATO','CSCO', 'EMN', 'HPQ', 'INGR', 'JPM', 'MAN', 'NTAP', 'NKE', 'SNY', 'SWKS', 'UNM', 'VZ', 'WBA', 'PFE', 'O', 'MO', 'SWK', 'TSN', 'LEG', 'USB', 'MAIN','MED','CVX','SON','APD','NNN','BKH','ES', 'CMI']
+tickers = ['MMM', 'ATO','CSCO', 'EMN', 'HPQ', 'INGR', 'JPM', 'MAN', 'NTAP', 'NKE', 'SNY', 'SWKS', 'UNM', 'VZ', 'WBA', 'PFE', 'O', 'MO', 'SWK', 'TSN', 'LEG', 'USB', 'MAIN','MED','CVX','SON','APD','NNN','BKH','ES', 'CMI', 'MCD','NEE','KO','MFC']
 fields = ['Company','Sector','Industry', 'Price', 'Dividend']
 
 def printStock(ticker):
